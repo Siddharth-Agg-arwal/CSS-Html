@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles1.css">
+  </head>
+  <body>
+      <div class="heading">
+    <h1 id="title">Thapar University Survey Form</h1>  
+      <p id="description"><em>Please fill up the following details</em></p>
+      </div>
+      <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="name" id="name-label"> Name:<input id="name" type="text" placeholder="Enter your full name" required /></label>
+        <label for="email" id="email-label">Email:<input id="email" type="email" placeholder="We only send important notifications :)" required /></label>
+        <label for="age">Age:<input type="number" required id="age" placeholder="How old are you?" /></label>
+        <label id="number-label" for="number">Roll Number:<input id="number" type="number" placeholder ="Enter Your 9-Digit Roll Number" required max="9" min="9" /></label>
+        <br>
+        <div id="genders">
+          <p class="dead">Kindly Specify your gender:</p>
+        <label id="male-label" for="male"><input type="radio" id="male" required name="gender" value="male" class="inline"/>Male &emsp;&emsp;<input id="female" value="female" required type="radio" name="gender" class="inline" />Female &emsp;&emsp;<input type="radio" value="others" id="others" required name="gender" class="inline"/>Others</label>
+        </div>
+        <br>
+        <label for="year">Year :<select id="dropdown" name="year">
+        <option value="">(select your year)</option>
+        <option value="1">First</option>
+        <option value="2">Second</option>
+        <option value="3">Third</option>
+        <option value="4">Fourth</option>
+        </select>
+       </label>
+        <br>
+        <p class="dead">Pick the eating points you like:</p>
+        <label><input type = "checkbox" name="checkbox" id="water" class="food" value="water"/>Water Body Cafe<br>
+        <input type = "checkbox" name="checkbox" id="gblock" class="food" value="gblock"/>G-Block<br>
+       <input type = "checkbox" name="checkbox" id="cos" class="food" value="cos"/>Cos<br>
+        <input type = "checkbox" name="checkbox" id="aahar" class="food" value="aahar"/>Aahar<br>
+        <input type = "checkbox" name="checkbox" id="streat" class="food" value="streat"/>Streat Cafe</label>
+
+        <label>Share your suggestions:<textarea placeholder ="This is a free space to share your ideas!"></textarea></label>
+      </fieldset>
+      <fieldset>
+      <input type="submit" value="Submit" id="submit" />
+      </fieldset>
+    </form>
+  </body>
+  </html>   

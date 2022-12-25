@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(rgba(0,0,0,.7),rgba(79, 50, 34, 0.6)),
+      url('https://prismpub.com/wp-content/uploads/2018/07/McCullough-Mulvin_Thapar-University_Cr_Christian_Richter-22-1024x640.jpg');
+    font-family: Tahoma;
+    background-size : cover;
+    padding : 20 20 0 20;
+    color : white;
+  }
+  
+  .heading {
+    text-align : center;
+    padding-bottom : 20px;
+  }
+  
+  h1 {
+    font-weight: 600;
+  }
+  
+  form {
+    background-color : rgba(150, 137, 127, 0.9);
+    width: 70vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    border-radius : 20px;
+  }
+  
+  label {
+    padding : 10 5 5 5;
+    display: block;
+    margin: 0.5rem 0 0 0;
+  }
+  
+  input, select {
+    background-color : rgba(98, 87, 80, 0.9);
+    border : none;
+    border-radius : 10px;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    padding : 0 0 0 15;
+  }
+  
+  fieldset {
+    border : none;
+  }
+  
+  .inline {
+    width : 10px;
+    vertical-align : middle;
+    margin: 0 0.5em 0 0;
+  }
+    
+  .food {
+    width : unset;
+    vertical-align : middle;
+    margin : 0 0.5em 0 0;
+  }
+  
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgba(98, 87, 80, 0.9); 
+    font-weight : bold;
+    min-width: 300px;
+    border-radius : 20px;
+    max-width : 500px;
+  }
+  
+  
+  textarea {
+    background-color : rgba(98, 87, 80, 0.9);
+    width : 100%;
+    border-radius : 10px;
+    margin-top : 10px;
+    min-height : 100px;
+    color : white;
+  }
